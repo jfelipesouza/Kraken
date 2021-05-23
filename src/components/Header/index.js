@@ -1,18 +1,20 @@
 import React from 'react';
+import { HeaderContainer, Info } from './header';
 
 export default function Header(){
     return(
 
-        <header>
-            <div className='info'>
+        <HeaderContainer >
+            <Info>
                 <div className='info--left'>
-                    <a style={{textDecoration:'none'}} href="/">Kraken</a>
+                    <a style={{textDecoration:'none',color:'#000000'}} href="/">Kraken</a>
                 </div>
                 <div className='info--rigth'>
                     Inicio Rapido
                     Fale conosco
                 </div>
-            </div>
-        </header>
+            </Info>
+        </HeaderContainer>
+
     )
 }
