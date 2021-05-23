@@ -1,17 +1,23 @@
 import React from 'react';
-import { HeaderContainer, Info } from './header';
-
+import { HeaderContainer, Info, Item } from './header';
+import logo from '../../assets/img/logo.svg'
 export default function Header(){
     return(
 
         <HeaderContainer >
             <Info>
                 <div className='info--left'>
-                    <a style={{textDecoration:'none',color:'#000000'}} href="/">Kraken</a>
+                    <a href="/">
+
+                        <img className="Logo" src={logo}/>
+                    
+                    </a>
                 </div>
                 <div className='info--rigth'>
-                    Inicio Rapido
-                    Fale conosco
+                    <ul style = {{display:'flex',flexDirection:'row'}}>
+                        <Item >Inicio Rápido</Item>
+                        <Item>Fale conosco</Item>
+                    </ul>
                 </div>
             </Info>
         </HeaderContainer>
