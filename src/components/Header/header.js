@@ -36,7 +36,7 @@ export const Item = styled.li`
     padding:10px;
     border-radius: 10px 10px 10px 10px;
     color: #ee7711;
-    background-color:#222;
+    background-color:#3E3D39;
     transform: scale(0.9);
     transition: all 0.5s ease;
     
