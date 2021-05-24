@@ -1,5 +1,5 @@
 import React from 'react';
-import { HeaderContainer, Info, Item } from './header';
+import { HeaderContainer, Info, Item, List } from './header';
 import logo from '../../assets/img/logo.svg'
 export default function Header(){
     return(
@@ -13,11 +13,12 @@ export default function Header(){
                     
                     </a>
                 </div>
+                
                 <div className='info--rigth'>
-                    <ul style = {{display:'flex',flexDirection:'row'}}>
-                        <Item >Inicio Rápido</Item>
-                        <Item>Fale conosco</Item>
-                    </ul>
+                    <List>
+                        <Item><a>Inicio Rápido</a></Item>
+                        <Item><a>Fale conosco</a></Item>
+                    </List>
                 </div>
             </Info>
         </HeaderContainer>
