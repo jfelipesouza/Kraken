@@ -13,12 +13,18 @@ export default function Header(){
                     
                     </a>
                 </div>
-                
+
                 <div className='info--rigth'>
+
                     <List>
-                        <Item><a>Inicio Rápido</a></Item>
-                        <Item><a>Fale conosco</a></Item>
+                        <Item>
+                            <a> Inicio Rápido</a>
+                        </Item>
+                        <Item>
+                            <a> Fale conosco</a>
+                        </Item>
                     </List>
+
                 </div>
             </Info>
         </HeaderContainer>
