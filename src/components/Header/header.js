@@ -5,7 +5,6 @@ export const HeaderContainer = styled.header`
     align-items: center;
     justify-content: center;
     display: flex;
-    position: absolute;
     padding-top:5px;
     background-color: #333;
 `;
@@ -39,7 +38,7 @@ export const Item = styled.li`
     background-color:#3E3D39;
     transform: scale(0.9);
     transition: all 0.5s ease;
-    
+    margin-right:10px;
     :hover{
         transform: scale(1);
     }
