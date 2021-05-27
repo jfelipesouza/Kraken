@@ -1,9 +1,12 @@
 import React from 'react';
 import { HeaderContainer, Info, Item, List } from './header';
 import logo from '../../assets/img/logo.svg'
-export default function Header(){
-    return(
 
+
+export default function Header(props){
+    
+    return(
+        
         <HeaderContainer >
             <Info>
                 <div className='info--left'>
@@ -18,14 +21,15 @@ export default function Header(){
 
                     <List>
                         <Item>
-                            <a> Inicio Rápido</a>
+                            <button onClick={()=>{props.setStart(!props.start)}} > Inicio Rápido</button>
                         </Item>
                         <Item>
-                            <a> Fale conosco</a>
+                            <button> Fale conosco</button>
                         </Item>
                     </List>
-
+                
                 </div>
+
             </Info>
         </HeaderContainer>
 

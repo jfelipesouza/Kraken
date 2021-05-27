@@ -7,6 +7,7 @@ export const HeaderContainer = styled.header`
     display: flex;
     padding-top:5px;
     background-color: #333;
+    top:0;
 `;
 
 export const Info = styled.div`
@@ -17,7 +18,7 @@ export const Info = styled.div`
 
     .Logo{
         width:70px;
-        
+        margin-left: 15px;
     }
 `;
 
@@ -32,15 +33,27 @@ export const Item = styled.li`
     display:flex;
     align-items:center;
     justify-content:center;
-    padding:10px;
-    border-radius: 10px 10px 10px 10px;
+    padding: 0px 10px 0px 0px;
     color: #ee7711;
-    background-color:#3E3D39;
-    transform: scale(0.9);
-    transition: all 0.5s ease;
-    margin-right:10px;
-    :hover{
+    
+
+    button{
+        background-color:#3E3D39;
+        border: none;
+        color: #fff;
+        padding: 15px 32px 15px  32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 18px;
+        transform: scale(0.9);
+        transition: all 0.5s ease;
+        border-radius:10px;
+        cursor: pointer;
+    }
+    
+    button:hover{
         transform: scale(1);
     }
-
+    
 `;
