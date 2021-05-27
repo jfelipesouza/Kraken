@@ -1,9 +1,19 @@
 import React from 'react'
-import './estilos.css'
+import { Container, SelectItem } from './CaptureVIdeo'
+
+
 export default function CaptureVideo(){
+
     return(
-        <div className = 'container'>
-            <p>Olá mundo</p>
-        </div>
+
+        <Container>
+            <SelectItem>
+                <input className= "url" type='text'/>
+                <button className = "Search">
+                    Baixar
+                </button>
+            </SelectItem>
+        </Container>
+    
     )
 }

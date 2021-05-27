@@ -8,6 +8,8 @@ export const HeaderContainer = styled.header`
     padding-top:5px;
     background-color: #333;
     top:0;
+    position: fixed;
+    top:0;
 `;
 
 export const Info = styled.div`
