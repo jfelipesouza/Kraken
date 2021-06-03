@@ -16,10 +16,10 @@ export const Info = styled.div`
     display:flex;
     flex-direction:row;
     justify-content: space-between;
-    width: 99vw;
+    width: 100vw;
 
     .Logo{
-        width:70px;
+        width:170px;
         margin-left: 15px;
     }
 `;
@@ -52,6 +52,7 @@ export const Item = styled.li`
         transition: all 0.5s ease;
         border-radius:10px;
         cursor: pointer;
+        font-family: Inter;
     }
     
     button:hover{

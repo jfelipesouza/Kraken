@@ -16,30 +16,42 @@ export const SelectItem = styled.div`
     padding:0px;
 
     .url{
-        border-radius: 5px 0px 0px 5px;
+        border-radius: 15px 0px 0px 15px;
         height: 3rem ;
         width:30rem;
-        border-color: #ee750d;
+        border-color: #464646;
         border-width: 2px;
-        border-right-color:#333;
+        border-right-color:#ee750d;
         font-size:16px;
         padding-left:9px;
+        padding-right:9px;
     }
 
     .Search{
         border-radius: 0px 105px 105px 0px;
         color: white;
-        background-color:#333;
+        background-color:#ee750d;
         border-width: 0px;
         padding-left: 35px;
         padding-right: 35px;
         cursor: pointer;
         font-size:16pt;
-
+        left:-2px;
+        position:relative;
     }
     .Search:hover{
-        color:orange;
+        color:black;
     }
 
 
 `;
+
+export const Info = styled.div`
+    display:flex;
+    flex-direction: column;
+    .Kraken{
+        height: 200px;
+    }
+
+`;
+
